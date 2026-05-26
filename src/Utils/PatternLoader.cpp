@@ -255,7 +255,7 @@ bool Load(HMODULE module, const std::string& dllPath, const std::string& ghSubdi
     if (!Config::patternMirror.empty()) {
         mirrors.push_back(Config::patternMirror);
     } else {
-        mirrors.emplace_back(kGithubMirror);
+        //mirrors.emplace_back(kGithubMirror);
         mirrors.emplace_back(kJsdelivrMirror);
     }
 
